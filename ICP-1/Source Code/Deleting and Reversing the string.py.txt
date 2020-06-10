@@ -1,0 +1,4 @@
+#Entering,deleting and reversing the string
+a = input('Enter the string : ')
+b=a[2::]
+print(b[::-1])

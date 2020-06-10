@@ -1,0 +1,6 @@
+#differences between Python2 and Python3
+differences=("1:Python 2 and Python 3 have different libraries"
+             "\n 2:There is better unicode suport in Python 3 than Python 2"
+             "\n 3:Python 3 has improved integer division"
+             "\n 4:Two versions of Python have different Print statements")
+print("Differences between Python 2 and Python 3 are : \n",differences)

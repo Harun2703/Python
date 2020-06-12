@@ -1,5 +1,15 @@
-from collections import *
-def word_count(file_name):
-    with open(file_name) as a:
-        return Counter(a.read().split())
-print("Number of words in the given file are: ",word_count("content"))
+fileName=input("Enter the FileName:")
+outPut={}
+with open(fileName,'r') as file:
+    for l in file:
+        wordlist=l.split()
+        for word in wordlist:
+            if word.lower() in outPut:
+                outPut[word.lower()]+=1
+            else:
+                outPut[word.lower()]=1
+print(outPut)
+wordfile=open("content","w")
+for key,val in outPut.items():
+    wordfile.write("{} {}\n".format(key,val))
+wordfile.close()

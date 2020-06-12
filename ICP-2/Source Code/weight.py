@@ -1,6 +1,6 @@
 lbs=[]
 kgs=[]
-x = int(input("Enter the number of students :"))
+x = int(input("Enter the number of students[N] :"))
 for i in range(x):
      weights=float(input("Enter input in lbs :"))
      lbs.append(weights)

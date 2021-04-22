@@ -1,6 +1,6 @@
 # performing arthmetic operations for given two numbers
-num1=int(input('enter the input 1:'))
-num2=int(input('enter the input 2:'))
+num1=2
+num2=4
 print('difference of given two numbers is', num1-num2)
 print('addition of given two numbers is', num1+num2)
 print('multiplication of given two numbers is',num1*num2)

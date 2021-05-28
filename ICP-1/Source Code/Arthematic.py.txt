@@ -1,6 +1,6 @@
 # performing arthmetic operations for given two numbers
 num1=130
-num2=20
+num2=200
 print('difference of given two numbers is', num1-num2)
 print('addition of given two numbers is', num1+num2)
 print('multiplication of given two numbers is',num1*num2)
